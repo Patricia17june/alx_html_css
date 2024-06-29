@@ -84,7 +84,7 @@ main button:hover {
 
 .section-learn h2 {
     font-size: 36px;
-    color: #ff00ff;
+    color: #ffffff;
 }
 
 .section-learn .pro-container {
@@ -121,3 +121,42 @@ main button:hover {
     color: #a259ff; /* Adjusted color for 'Learn' */
     font-weight: bold;
 }
+
+.testimonial-section {
+    background-color: #9B59B6; /* Purple background color */
+    padding: 20px;
+    text-align: center; /* Center the content horizontally */
+    display: flex; /* Allow for flexible layout of image and text */
+    justify-content: space-between; /* Distribute content evenly with some space */
+    align-items: center; /* Align content vertically in the center */
+  }
+  
+  /* Image styles */
+  .testimonial-section img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Create a circular image */
+  }
+  
+  /* Text container styles */
+  .testimonial-content {
+    color: white; /* White text color */
+  }
+  
+  /* Block quote styles */
+  .testimonial-content blockquote {
+    font-style: italic; /* Italic text for quotes */
+    margin-bottom: 10px; /* Add some space after quote */
+    font-size: 1.2em; /* Quote size */
+    line-height: 1.5; /* Adjust line spacing for readability */
+    margin-left: 0; /* Remove default indentation for blockquotes */
+    padding-left: 20px; /* Add left padding to create quote marks visually */
+    border-left: 5px solid #fff; /* Add white left border for quote marks */
+  }
+  
+  /* Name and profession styles */
+  .testimonial-content h3,
+  .testimonial-content p {
+    font-weight: bold; /* Bold text for name and profession */
+    margin: 5px 0; /* Add some space above and below */
+  }
