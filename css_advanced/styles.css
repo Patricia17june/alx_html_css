@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: #ffffff;
-    background-color: #2c2c2c; /* Default background color */
+    background-color: #3c25259a; /* Default background color */
 }
 
 /* Header Styles */
@@ -12,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background-color: rgba(31, 27, 27, 0.642); /* Semi-transparent background */
 }
 
 header nav {
@@ -160,3 +160,216 @@ main button:hover {
     font-weight: bold; /* Bold text for name and profession */
     margin: 5px 0; /* Add some space above and below */
   }
+
+  /* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #2c2c2c;
+    background-color: #75424271; /* Default background color */
+}
+
+/* Section Styles */
+section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #151010c4;
+}
+
+section h2 {
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+section .tutorials-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section .tutorial {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: left;
+    position: relative;
+}
+
+section .tutorial img {
+    width: 75%;
+    border-radius: 10px;
+}
+
+section .tutorial h3 {
+    font-size: 20px;
+    color: #333333;
+    margin: 10px 0;
+}
+
+section .tutorial p {
+    font-size: 14px;
+    color: #777777;
+    margin: 10px 0;
+}
+
+section .tutorial .author {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+section .tutorial .author img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+section .tutorial .author h4 {
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+}
+
+section .tutorial .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+section .tutorial .rating i {
+    color: #ffa500;
+    margin-right: 5px;
+}
+
+section .tutorial .time {
+    font-size: 14px;
+    color: #777777;
+    margin-top: 10px;
+}
+
+/* Specific Styles for Header Colors */
+.section-title {
+    color: #a259ff; /* Adjusted color for 'Most popular' */
+    font-weight: bold;
+}
+
+/* Play button overlay */
+.tutorial .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* style.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a1b3d;
+    color: #ffffff;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #2a1b3d;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+/* Profile section */
+.profile-card {
+    display: flex;
+    background-color: #091f50;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Team section */
+.team-card {
+    background-color: #f0e6ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.team-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Gallery section */
+.gallery-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* FAQ section */
+.faq-card {
+    background-color: #f0e6ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+/* Author name */
+.author-name {
+    font-weight: bold;
+    color: #333333;
+}
+/* Styles for 2 columns and 2 rows layout */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Gap between the items */
+}
+
+.flex-container p {
+    flex: 1 1 calc(50% - 20px); /* 50% width minus gap */
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+section {
+    font-family: Arial, sans-serif;
+    background-color: #051939;
+    padding: 20px;
+}
+h2 {
+    color: #333;
+}
+h3 {
+    color: #0074d9;
+}
+div {
+    margin-bottom: 20px;
+}
