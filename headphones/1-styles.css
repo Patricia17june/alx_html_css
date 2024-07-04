@@ -51,7 +51,14 @@ header ul li a {
     color: #ffffff;
     font-weight: bold;
 }
-
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
  /*hero styles*/      
  .hero {
     display: flex;
@@ -91,6 +98,68 @@ hero-text p {
     cursor: pointer;
 }
 
-cta-button:hover {
-    background-color: #e65a4e;
+.cta-button:hover {
+    background-color: #6c1a12;
+}
+
+
+.features {
+    border: none;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+}
+
+.features p {
+    font-size: 15px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.feature {
+    flex: 1;
+    min-width: 80px;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+.feature-icon{
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.feature h3{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    .nav-links {
+        flex-direction: column;
+    }
+    .hero-text h1 {
+        font-size: 24px;
+    }
+    .hero-text p {
+        font-size: 16px;
+    }
+    .features-grid {
+        flex-direction: column;
+    }
 }
